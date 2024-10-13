@@ -2,16 +2,16 @@
 int main ()
 
 {
-	int age;
 	char gender;
+	int age;
 	
-	printf("Enter Your Gender M / F : ");
+	printf("Enter The Gender (M/F) : ");
 	scanf("%c", &gender);
 	
-	printf("Enter Your Age : ");
+	printf("Enter The Age : ");
 	scanf("%d", &age);
 	
-	if (gender == 'M')
+	if (gender == 'm')
 	{
 		if (age >= 18)
 		{
@@ -19,7 +19,7 @@ int main ()
 		}
 		else
 		{
-			printf("Not Allowed For Driving.");
+			printf("Allowed For Driving.");
 		}
 	}
 	else

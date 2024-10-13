@@ -1,11 +1,21 @@
-#include<stdio.h>
+#include <stdio.h>
+
 int main ()
+
 {
-	int i=1;
-	int mark [5]={10,20,30,40,50};
-	for(i=1;i<=5;i++)
+	int a[5];
+	
+	printf("Enter The Numbers : ");
+	for (int i=1; i<=5; i++)
 	{
-		printf("%d",mark);
+		scanf("%d", &a[i]);
 	}
+	
+	printf("\n\nAddition = %d", a[2] + a[4]);
+	printf("\nSubstraction = %d", a[2] - a[4]);
+	printf("\nMultiplication = %d", a[2] * a[4]);
+	printf("\nDivision = %d", a[2] / a[4]);
+	printf("\nRemainder = %d", a[2] % a[4]);
+	
 	return 0;
 }
